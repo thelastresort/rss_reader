@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RssReader</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="actionbar_title_mynews">我的资讯</string>
+    <string name="tab_home_text">tab_home_text</string>
+    <string name="actionbar_setting_title">我的设置</string>
+    <string name="iv_icon_info">iv_icon_info</string>
+    <string name="setting_info_text">关于</string>
+    <string name="setting_delete_cache_text">清除缓存</string>
+    <string name="actionbar_title_about">关于</string>
+    <string name="info_version_text">版本：beta 1.0</string>
+    <string name="rssreader_friend_text">RssReader新浪微博</string>
+    <string name="info_email_text">rosejames029@gmail.com</string>
+    <string name="www_rssreader_com">www.rssreader.com</string>
+    <string name="rssreader_user_deal_text">RssReader用户使用协议</string>
+    <string name="copyright_2014_2015_rssreader_version_own_text">Copyright @ 2014-2015 RssReader团队版权所有</string>
+    <string name="app_list_header_refresh_last_update">最近更新：</string>
+    <string name="app_list_header_refresh_down">下拉刷新</string>
+
+    <string name="pull_to_refresh">下拉可以刷新</string>
+	<string name="release_to_refresh">释放立即刷新</string>
+	<string name="refreshing">正在刷新…</string>
+	<string name="not_updated_yet">暂未更新过</string>
+	<string name="updated_at">上次更新于%1$s前</string>
+	<string name="updated_just_now">刚刚更新</string>
+	<string name="time_error">时间有问题</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_background">#3f51b5</color>
+    <color name="content_background">#E1F5FE</color>
+    <color name="tab_background">#3f51b5</color>
+    <color name="tab_selected">#4527a0</color>
+    <color name="setting_text_color">#808080</color>
+    <color name="setting_division">#b3b3b3</color>
+    <color name="feed_item_background">#EE29B6F6</color>
+    <color name="transparent">#55000000</color>
+     <color name="pb_background">#553f51b5</color>
+    <color name="pb_progress">#554527a0</color>
+</resources>

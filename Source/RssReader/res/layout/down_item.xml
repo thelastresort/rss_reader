@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/down_load_selector"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp" 
+        >
+
+        <TextView
+            android:id="@+id/tv_down_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/setting_text_color"
+            android:textSize="20sp"
+            android:textStyle="normal" 
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+          />
+
+        <CheckBox
+            android:id="@+id/cb_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp" 
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:focusable="false"
+            android:clickable="false"/>
+    </RelativeLayout>
+
+</LinearLayout>

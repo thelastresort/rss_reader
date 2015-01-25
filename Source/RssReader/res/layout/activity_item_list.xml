@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+<!--     <com.flamingo.utils.RefreshableView
+        android:id="@+id/refreshable_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@color/content_background">
+        <ListView
+            android:layout_margin="8dp"
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </com.flamingo.utils.RefreshableView> -->
+    
+    <!--
+    The PullToRefreshListView replaces a standard ListView widget.
+    -->
+    <com.markupartist.android.widget.PullToRefreshListView
+        android:id="@+id/refresh_view"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        />
+    
+    <LinearLayout 
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/ll_loading"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+    <ProgressBar 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    <TextView 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/setting_text_color"
+        android:text="正在加载......."
+        android:textSize="18sp"
+        />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:id="@+id/actionbar_layout_id"
+    android:background="@color/actionbar_background">
+    
+    <TextView 
+        android:id="@+id/tv_actionbar_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/actionbar_setting_title"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    
+</RelativeLayout>

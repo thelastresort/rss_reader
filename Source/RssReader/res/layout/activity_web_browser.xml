@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custon="http://schemas.android.com/apk/res/com.flamingo.rssreader"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/pb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="8dip"
+            android:indeterminateOnly="false"
+            android:max="100"
+            android:progressDrawable="@drawable/progress_bar_states" >
+        </ProgressBar>
+
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <com.flamingo.utils.RoundProgressBar
+        android:id="@+id/pb_round"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android_custon:roundColor="@color/pb_background"
+        android_custon:roundProgressColor="@color/pb_progress"
+        android_custon:roundWidth="8dp"
+        android_custon:textColor="@android:color/black"
+        android_custon:textIsDisplayable="false" >
+    </com.flamingo.utils.RoundProgressBar>
+
+</FrameLayout>

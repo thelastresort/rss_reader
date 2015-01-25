@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="vertical"
+    android:id="@+id/main_ll">  
+      
+    <!-- 这个布局决定了标签在上面还是在下面显示 -->  
+    <FrameLayout   
+        android:id="@+id/fl_tab_content"  
+        android:layout_width="match_parent"  
+        android:layout_height="0dip"  
+        android:layout_weight="1" />  
+      
+    <android.support.v4.app.FragmentTabHost  
+        android:id="@android:id/tabhost"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content">  
+          
+        <TabWidget   
+            android:id="@android:id/tabs"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:orientation="horizontal"/>  
+    </android.support.v4.app.FragmentTabHost>  
+     
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/tab_selected"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:id="@+id/ll_pop_view" >
+
+        <Button
+            android:id="@+id/btn_cancel_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@color/tab_background"
+            android:text="取消"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:background="@color/tab_background"
+            android:text="删除"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>  

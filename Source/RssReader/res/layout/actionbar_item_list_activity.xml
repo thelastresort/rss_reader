@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:id="@+id/actionbar_layout_id"
+    android:background="@color/actionbar_background">
+    <ImageButton
+        android:id="@+id/ib_back_up"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_return_selector"
+        android:contentDescription="@string/app_name"
+        android:onClick="onClick"
+        />
+    <TextView 
+        android:id="@+id/tv_actionabar_item_list_title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="果壳网"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    
+</RelativeLayout>
